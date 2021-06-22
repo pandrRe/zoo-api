@@ -1,0 +1,29 @@
+{
+  "name": "zoo-api",
+  "version": "1.0.0",
+  "description": "API for animals CRUD.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "start": "nodemon src/index.js",
+    "config-tests": "jest --init"
+  },
+  "keywords": [
+    "api",
+    "animals",
+    "crud"
+  ],
+  "author": "pandrre",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^6.6.2",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3"
+  }
+}
